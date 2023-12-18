@@ -10,6 +10,8 @@ BlockType = Literal[
     "flojoy.math.arithmetic.add",
     "flojoy.math.arithmetic.subtract",
     "flojoy.math.constant",
+    "flojoy.robotics.ros_connect",
+    "flojoy.robotics.ros_text",
 ]
 
 BlockID: TypeAlias = str

@@ -26,6 +26,8 @@ const BlocksLibrary = () => {
           desc="progress bar"
           block_type="flojoy.visualization.progress_bar"
         />
+        <BlockCard name="ROS Connect" desc="Connect ROS" block_type='flojoy.robotics.ros_connect'/>
+        <BlockCard name="ROS Text" desc="Text from ROS" block_type='flojoy.robotics.ros_text'/>
       </div>
     </div>
   );

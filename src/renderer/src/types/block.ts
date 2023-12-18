@@ -7,7 +7,9 @@ export type BlockType =
   | 'flojoy.visualization.big_num'
   | 'flojoy.math.arithmetic.add'
   | 'flojoy.math.arithmetic.subtract'
-  | 'flojoy.math.constant';
+  | 'flojoy.math.constant'
+  | 'flojoy.robotics.ros_connect'
+  | 'flojoy.robotics.ros_text';
 
 export type BlockData = {
   block_type: BlockType;
