@@ -12,6 +12,7 @@ def test_add():
         _Block(id="big_num", block_type="flojoy.visualization.big_num"),
         _Block(id="ros_connect", block_type="flojoy.robotics.ros_connect"),
         _Block(id="ros_text", block_type="flojoy.robotics.ros_text"),
+        _Block(id="ros_publisher", block_type="flojoy.robotics.ros_publisher"),
     ]
 
     edges = [

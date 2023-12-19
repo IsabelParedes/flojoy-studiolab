@@ -9,6 +9,7 @@ export type BlockType =
   | 'flojoy.math.arithmetic.subtract'
   | 'flojoy.math.constant'
   | 'flojoy.robotics.ros_connect'
+  | 'flojoy.robotics.ros_publisher'
   | 'flojoy.robotics.ros_text';
 
 export type BlockData = {

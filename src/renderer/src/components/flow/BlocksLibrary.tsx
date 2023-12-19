@@ -28,6 +28,7 @@ const BlocksLibrary = () => {
         />
         <BlockCard name="ROS Connect" desc="Connect ROS" block_type='flojoy.robotics.ros_connect'/>
         <BlockCard name="ROS Text" desc="Text from ROS" block_type='flojoy.robotics.ros_text'/>
+        <BlockCard name="ROS Publisher" desc="Publish ROS message" block_type='flojoy.robotics.ros_publisher'/>
       </div>
     </div>
   );
